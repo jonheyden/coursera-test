@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>  
+   <head>
+      <meta charset="utf-8">
+      <title>Simple Selectors</title>
+      <style>
+
+         /* all h2 elements */
+         h2 {
+            color: red;
+            text-align: center;
+         }
+         /* all with class="highlight" */
+         .highlight {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: green;
+            opacity: .6;
+         }
+         /* element with id="mainPoint" */
+         #mainPoint {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .7;
+         }
+         /*all p AND h1 elements */
+         p, h1 {
+            color: blue;
+            text-align: center;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Simple Selectors (h1)</h1>
+      <h2>Subheading 1 (h2)</h2>
+      <p class="highlight">
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit, fugit odio beatae autem voluptatibus voluptatum in qui iste architecto necessitatibus dignissimos, libero quaerat, laborum deserunt quasi? Consequuntur recusandae repellendus iste maiores esse nesciunt error sint adipisci odio optio soluta, necessitatibus numquam repudiandae ipsum omnis aut veniam accusamus voluptas debitis!
+      </p>
+      <p class="highlight">
+         Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae sapiente necessitatibus obcaecati est recusandae libero officiis doloribus eveniet doloremque.
+      </p>
+      <h2>Subheading 2 (h2)</h2>
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit, fugit odio beatae autem voluptatibus voluptatum in qui iste architecto necessitatibus dignissimos, libero quaerat, laborum deserunt quasi? Consequuntur recusandae repellendus iste maiores esse nesciunt error sint adipisci odio optio soluta, necessitatibus numquam repudiandae ipsum omnis aut veniam accusamus voluptas debitis!
+         <div>This is the main point of the entire article. So, attribute
+            <span id="mainPoint">id="mainPoint".</span>
+         </div>
+   </body>
+</html>
